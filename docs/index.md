@@ -10,7 +10,7 @@ background in software engineering, I possess a comprehensive understanding of t
 
 ### Click the links below to view my working experience.
 
-- [💼Professional experience](docs/professional-experience.md)
-- [🙌 Volunteer Work](docs/volunteer-experience.md)
-- [🧑‍💻 Freelance & Part-time](docs/part-time-freelancing.md)
+- [💼Professional Experience](docs/professional-experience.md)
+- [🙌 Volunteer Experience](docs/volunteer-experience.md)
+- [🧑‍💻 Freelance & Part-time Experience](docs/freelance-experience.md)
 
