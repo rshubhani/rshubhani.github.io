@@ -12,5 +12,5 @@ background in software engineering, I possess a comprehensive understanding of t
 
 - [💼Professional Experience](professional-experience.md)
 - [🙌 Volunteer Experience](volunteer-experience.md)
-- [🧑‍💻 Freelance & Part-time Experience](freelance-experience.md)
+- [🧑‍💻 Part-time Experience](part-time-experience.md)
 
