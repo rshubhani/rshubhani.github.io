@@ -8,7 +8,9 @@ background in software engineering, I possess a comprehensive understanding of t
 ### Technical Tools & Platforms
   Madcap Flare, Robohelp, Adobe FrameMaker, Snagit, Drupal, Trello, MS-Planner, JIRA, Confluence, AWS (S3), Gitlab, Jenkins, Canva Pro, Wix, Mural, Video-editting softwares such as Da Vinci Resolve, HitFilm Express, AI tools (ChatGpt, Grok.ai, Perplexity, Claude), EDraw max, MS-visio, Microsoft Dynamic 365, MS-Office 365, Google Suite, Doc 365, Notion, Slack, Readme.so
 
-Click the links below to view my working experience.
+### Click the links below to view my working experience.
 
-💼[Professional experience] ()
+- [💼Professional experience](docs/professional-experience.md)
+- [🙌 Volunteer Work](docs/volunteer-experience.md)
+- [🧑‍💻 Freelance & Part-time](docs/part-time-freelancing.md)
 
