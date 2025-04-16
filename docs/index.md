@@ -1,6 +1,7 @@
 # Hi, I am Shubhani Rawat 👋 
-*As a Technical Writer with a Bachelor's degree in Computer Science and a postgraduate degree in Advanced Project Management and Strategic Leadership, I bring nearly seven years of experience in technical and UX writing, software documentation, and digital writing. Certified as a Scrum Master and with a
-background in software engineering, I possess a comprehensive understanding of the Document Development Life Cycle, particularly within Agile methodologies. My innovative approach and tech-savvy nature have been instrumental in navigating the fast-paced world of IT, making me a valuable asset to any team.*
+*As a Technical Writer with a Bachelor's degree in Computer Science and a postgraduate degree in Advanced Project Management and Strategic Leadership, I bring nearly seven years of experience in technical and UX writing, software documentation, and digital writing. 
+
+Certified as a Scrum Master and with a background in software engineering, I possess a comprehensive understanding of the Document Development Life Cycle, particularly within Agile methodologies. My innovative approach and tech-savvy nature have been instrumental in navigating the fast-paced world of IT, making me a valuable asset to any team.*
 
 
 ### Click the links below to view my working experience.
