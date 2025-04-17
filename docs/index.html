@@ -1,3 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+</head>
+<body>
+
+  <!-- Main Experience Button -->
+  <button onclick="showExperience()">Experience</button>
+
+  <!-- Hidden section with sub-buttons -->
+  <div id="experienceButtons" style="display: none; margin-top: 10px;">
+    <button onclick="window.location.href='professional-experience.html'">Professional</button>
+    <button onclick="window.location.href='part-time-experience.html'">Part-Time</button>
+    <button onclick="window.location.href='volunteer-experience.html'">Volunteer</button>
+  </div>
+
+  <!-- Small script to show/hide sub-buttons -->
+  <script>
+    function showExperience() {
+      var x = document.getElementById("experienceButtons");
+      if (x.style.display === "none") {
+        x.style.display = "block"; // show the buttons
+      } else {
+        x.style.display = "none";  // hide again if already open
+      }
+    }
+  </script>
+
+</body>
+</html>
+
+
+
+
 # <span style="color: #430000;">Hi, I am Shubhani Rawat</span> 👋 
 
 <div style="background-color: #f5f5f5; padding: 15px; border-left: 4px solid #800000; margin-bottom: 20px;">
