@@ -57,17 +57,6 @@
           <button onclick="window.location.href='volunteer-experience.html'"style="display: inline-block; text-decoration: none; padding: 10px 15px; background-color: #800000; color: white; border-radius: 5px; width: fit-content;">Volunteer</button>
         </div>
 
- <!-- Javasript- Small script to show/hide sub-buttons -->
-  <script>
-    function showExperience() {
-      var x = document.getElentById("experienceButtons");
-      if (x.style.display === "none") {
-        x.style.display = "block"; // show the buttons
-      } else {
-        x.style.display = "none";  // hide again if already open
-      }
-    }
-  </script>
     
       <h2 style= "color: #430000;">Skills </h2>
         <h3 style= "color: #800000;">Agile and Scrum Master </h3>    
@@ -100,10 +89,19 @@
         </p>
         </div>
       </div>
-
-
-
   </div>
+
+   <!-- Javasript- Small script to show/hide sub-buttons -->
+  <script>
+    function showExperience() {
+      var x = document.getElementById("experienceButtons");
+      if (x.style.display === "none") {
+        x.style.display = "block"; // show the buttons
+      } else {
+        x.style.display = "none";  // hide again if already open
+      }
+    }
+  </script>
     </body>
    </html>
 
