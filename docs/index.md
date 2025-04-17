@@ -25,9 +25,10 @@ Certified as a Scrum Master and with a background in software engineering, I pos
 </div>
 
 # <span style="color: #430000;">Education</span>
-<div style="display: inline-block; flex; flex-wrap: wrap; gap: 10px; text-decoration: none; padding: 10px 15px; background-color: #f5f5f5; color: white; border-radius: 5px; width: fit-content;">
+<div style="display: block; flex; flex-wrap: wrap; gap: 10px; text-decoration: none; padding: 10px 15px; background-color: #f5f5f5; color: white; border-radius: 5px; width: fit-content;">
   <em>(Post-Grad) Advanced Project Management and Strategic Leadership, Lambton College, Ontario, Canada (2020-2021)</em>
-<div style="display: inline-block; flex; flex-wrap: wrap; gap: 10px; text-decoration: none; padding: 10px 15px; background-color: #f5f5f5; color: white; border-radius: 5px; width: fit-content;">
+</div>
+<div style="display: block; flex; flex-wrap: wrap; gap: 10px; text-decoration: none; padding: 10px 15px; background-color: #f5f5f5; color: white; border-radius: 5px; width: fit-content;">
   <em>(Post-Grad)(B.Tech) Bachelor's in Computer Sciences and Engineering, Baddi University of Emerging Sciences and Technology (India) (2012 - 2016)</em>
 </div>
 
