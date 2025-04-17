@@ -25,10 +25,19 @@ Certified as a Scrum Master and with a background in software engineering, I pos
 </div>
 
 # <span style="color: #430000;">Education</span>
-<div style="display: block; flex; flex-wrap: wrap; gap: 10px; text-decoration: none; padding: 10px 15px; background-color: #f5f5f5; color: white; border-radius: 5px; width: fit-content;">
+<div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 20px;">
+<div style="display: flex; flex-wrap: wrap; gap: 20px; text-decoration: none; padding: 10px 15px; background-color: #f5f5f5; color: black; border-radius: 5px; width: fit-content;">
   <em>(Post-Grad) Advanced Project Management and Strategic Leadership, Lambton College, Ontario, Canada (2020-2021)</em>
 </div>
-<div style="display: block; flex; flex-wrap: wrap; gap: 10px; text-decoration: none; padding: 10px 15px; background-color: #f5f5f5; color: white; border-radius: 5px; width: fit-content;">
+
+<div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 20px;">
+  <div style="flex: 1; min-width: 300px; background-color: #f5f5f5; color: black; border-radius: 5px; padding: 15px; border: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4 style="margin-top: 0; color: #800000;">Post-Graduate Degree</h4>
+    <em>Advanced Project Management and Strategic Leadership<br>Lambton College, Ontario, Canada<br>(2020-2021)</em>
+  </div>
+
+
+<div style="display: block; flex; flex-wrap: wrap; gap: 10px; text-decoration: none; padding: 10px 15px; background-color: #f5f5f5; color: black; border-radius: 5px; width: fit-content;">
   <em>(Post-Grad)(B.Tech) Bachelor's in Computer Sciences and Engineering, Baddi University of Emerging Sciences and Technology (India) (2012 - 2016)</em>
 </div>
 
