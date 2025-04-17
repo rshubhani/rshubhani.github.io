@@ -48,10 +48,10 @@
       <h3 style= "color: #430000;">Click the links below to view my working experience. </h3>
   
   <!-- Main Experience Button -->
-        <button onclick="showSection('experienceButtons')" style="background-color: #800000; color: white; padding: 10px 15px; border-radius: 5px;">Experience</button>
+        <button onclick="showSection('experienceButton')" style="background-color: #800000; color: white; padding: 10px 15px; border-radius: 5px;">Experience</button>
         
   <!-- Hidden section with sub-buttons -->
-        <div id="experienceButtons" style="display: none; margin-top: 10px;">
+        <div id="experienceButton" style="display: none; margin-top: 10px;">
           <button onclick="window.location.href='professional-experience.html'"style="display: inline-block; text-decoration: none; padding: 10px 15px; background-color: #800000; color: white; border-radius: 5px; width: fit-content;">Professional</button>
           <button onclick="window.location.href='part-time-experience.html'"style="display: inline-block; text-decoration: none; padding: 10px 15px; background-color: #800000; color: white; border-radius: 5px; width: fit-content;">Part-Time</button>
           <button onclick="window.location.href='volunteer-experience.html'"style="display: inline-block; text-decoration: none; padding: 10px 15px; background-color: #800000; color: white; border-radius: 5px; width: fit-content;">Volunteer</button>
@@ -66,15 +66,12 @@
           <button onclick="window.location.href='installationguide.html'"style="display: inline-block; text-decoration: none; padding: 10px 15px; background-color: #800000; color: white; border-radius: 5px; width: fit-content;">Installation Guide</button>
           <button onclick="window.location.href='usermanual.html'"style="display: inline-block; text-decoration: none; padding: 10px 15px; background-color: #800000; color: white; border-radius: 5px; width: fit-content;">User Manual</button>
         </div>
-
-
-    
     
       <h2 style= "color: #430000;">Skills </h2>
         <h3 style= "color: #800000;">Agile and Scrum Master </h3>    
         <div style="background-color: #f5f5f5; padding: 15px; border-left: 4px solid #800000; margin-bottom: 20px;">
           <p>
-            As a certified Scrum Master, I thrive in agile environments. As a project managent student, I have developed a deep interest in how agile methodologies can accelerate project completion. I believe that when implented effectively with well-planned sprints, agile can consistently deliver projects on time.
+            As a certified Scrum Master, I thrive in agile environments. As a project management student, I have developed a deep interest in how agile methodologies can accelerate project completion. I believe that when implented effectively with well-planned sprints, agile can consistently deliver projects on time.
           </p>
         </div>
 
@@ -90,7 +87,7 @@
         <div style="flex: 1; min-width: 300px; background-color: #f5f5f5; color: black; border-radius: 5px; padding: 15px; border: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
         <h4 style="margin-top: 0; color: #800000;">Post-Graduate Degree</h4>
         <p>
-          Advanced Project Managent and Strategic Leadership<br>Lambton College, Ontario, Canada<br>(2020-2021)
+          Advanced Project Management and Strategic Leadership<br>Lambton College, Ontario, Canada<br>(2020-2021)
         </p>
         </div>
 
@@ -104,10 +101,11 @@
   </div>
 
    <!-- Javasript- Small script to show/hide sub-buttons -->
+  
   <script>
     function showSection(sectionId) {
       var x = document.getElementById(sectionId);
-      if (x.style.display === "none") {
+      if (x.style.display === "none" || x.style.display === "") {
         x.style.display = "block"; // show the buttons
       } else {
         x.style.display = "none";  // hide again if already open
