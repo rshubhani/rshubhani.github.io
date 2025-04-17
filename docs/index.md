@@ -7,9 +7,9 @@
 ### <span style="color: #430000;">Click the links below to view my working experience.</span>
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <a href="professional-experience.md" style="display: inline-block; text-decoration: none; padding: 10px 15px; background-color: #800000; color: white; border-radius: 5px; width: fit-content;">Professional Experience</a>
-  <a href="volunteer-experience.md" style="display: inline-block; text-decoration: none; padding: 10px 15px; background-color: #800000; color: white; border-radius: 5px; width: fit-content;">Volunteer Experience</a>
-  <a href="part-time-experience.md" style="display: inline-block; text-decoration: none; padding: 10px 15px; background-color: #800000; color: white; border-radius: 5px; width: fit-content;">Part-time Experience</a>
+  <a href="professional-experience.html" style="display: inline-block; text-decoration: none; padding: 10px 15px; background-color: #800000; color: white; border-radius: 5px; width: fit-content;">Professional Experience</a>
+  <a href="volunteer-experience.html" style="display: inline-block; text-decoration: none; padding: 10px 15px; background-color: #800000; color: white; border-radius: 5px; width: fit-content;">Volunteer Experience</a>
+  <a href="part-time-experience.html" style="display: inline-block; text-decoration: none; padding: 10px 15px; background-color: #800000; color: white; border-radius: 5px; width: fit-content;">Part-time Experience</a>
 </div>
 
 # <span style="color: #430000;">Skills</span>
