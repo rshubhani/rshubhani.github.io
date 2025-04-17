@@ -48,7 +48,7 @@
       <h3 style= "color: #430000;">Click the links below to view my working experience. </h3>
   
   <!-- Main Experience Button -->
-        <button onclick="showExperience()" style="background-color: #800000; color: white; padding: 10px 15px; border-radius: 5px;">My Experience</button>
+        <button onclick="showSection(experienceButtons)" style="background-color: #800000; color: white; padding: 10px 15px; border-radius: 5px;">Experience</button>
         
   <!-- Hidden section with sub-buttons -->
         <div id="experienceButtons" style="display: none; margin-top: 10px;">
@@ -57,6 +57,18 @@
           <button onclick="window.location.href='volunteer-experience.html'"style="display: inline-block; text-decoration: none; padding: 10px 15px; background-color: #800000; color: white; border-radius: 5px; width: fit-content;">Volunteer</button>
         </div>
 
+ <!-- Main Documentation Button -->
+        <button onclick="showSection(documentationButton)" style="background-color: #800000; color: white; padding: 10px 15px; border-radius: 5px;">Project Sample</button>
+        
+  <!-- Hidden section with sub-buttons -->
+        <div id="documentationButton" style="display: none; margin-top: 10px;">
+          <button onclick="window.location.href='apidocumentation.html'"style="display: inline-block; text-decoration: none; padding: 10px 15px; background-color: #800000; color: white; border-radius: 5px; width: fit-content;">API Documentation</button>
+          <button onclick="window.location.href='installationguide.html'"style="display: inline-block; text-decoration: none; padding: 10px 15px; background-color: #800000; color: white; border-radius: 5px; width: fit-content;">Installation Guide</button>
+          <button onclick="window.location.href='usermanual.html'"style="display: inline-block; text-decoration: none; padding: 10px 15px; background-color: #800000; color: white; border-radius: 5px; width: fit-content;">User Manual</button>
+        </div>
+
+
+    
     
       <h2 style= "color: #430000;">Skills </h2>
         <h3 style= "color: #800000;">Agile and Scrum Master </h3>    
@@ -93,8 +105,8 @@
 
    <!-- Javasript- Small script to show/hide sub-buttons -->
   <script>
-    function showExperience() {
-      var x = document.getElementById("experienceButtons");
+    function showSection(sectionId) {
+      var x = document.getElementById(sectionId);
       if (x.style.display === "none") {
         x.style.display = "block"; // show the buttons
       } else {
