@@ -1,8 +1,10 @@
 <a id="top"></a>
 
-[🏠Back to Home](index.md)
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <a href="index.md" style="display: inline-block; text-decoration: none; padding: 10px 15px; background-color: #800000; color: white; border-radius: 5px; width: fit-content;">Back to Home</a>
+ </div>
 
-# Here is my Professional Technical Writing Experience
+# <span style= "color: #430000;">Here is my Professional Technical Writing Experience</span>
 
 ## FORTRA, US | TECHNICAL WRITER (II) | CYBERSECURITY | JUNE 2022 - PRESENT
 - Developed and updated essential product documentation, including Release Notes, User Guides, and online help guides through a hybrid approach blending traditional tech writing tools like Madcap Flare, RoboHelp, MS Word, and Confluence with docs-as-code elements.
@@ -18,6 +20,10 @@
 - Operated within an agile framework, actively participating in daily sprints and scrum meetings, and contributed to product demos to ensure a deep understanding of upcoming features.
 - Track documentation tickets and tasks, including priority tasks, on Trello and create a documentation backlog to help prioritize tasks.
 
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <a href="#top" style="display: inline-block; text-decoration: none; padding: 10px 15px; background-color: #800000; color: white; border-radius: 5px; width: fit-content;">Back to Top</a>
+ </div>
+
 [🔝 Back to Top](#top)
 
 ## WALMART, CA | TECHNICAL WRITER | CRM | APRIL 2022 - JUNE 2022
@@ -29,6 +35,8 @@
 - Developed a customer care knowledge portal at Raven, including creating and conducting training for team members.
 - Designed the layout and organized documents for the knowledge portal, collaborating with Subject Matter Experts (SMEs), reviewers, and project managers.
 - Monitored and updated project progress using MS Planner, SharePoint, and MS Suite.
+
+
 
 [🔝 Back to Top](#top)
 
