@@ -33,6 +33,6 @@ Certified as a Scrum Master and with a background in software engineering, I pos
 
   <div style="flex: 1; min-width: 300px; background-color: #f5f5f5; color: black; border-radius: 5px; padding: 15px; border: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
     <h4 style="margin-top: 0; color: #800000;">Post-Graduate Degree</h4>
-    <em>(B.Tech) Bachelor's in Computer Sciences and Engineering, Baddi University of Emerging Sciences and Technology (India) (2012 - 2016)</em>
+    <em>(B.Tech) Bachelor's in Computer Sciences and Engineering<br>Baddi University of Emerging Sciences and Technology (India)<br>(2012 - 2016)</em>
   </div>
 </div>
