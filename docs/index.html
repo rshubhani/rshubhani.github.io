@@ -102,6 +102,10 @@
       </div>
   </div>
 
+  <div style="margin-top: 50px; text-align: left;">
+    <button onclick="scrollToTop()" style="background-color: #800000; color: white; border: none; border-radius: 5px; padding: 10px 15px; cursor: pointer; font-weight: bold;">Back to Top</button>
+</div>
+  
    <!-- Javasript- Small script to show/hide sub-buttons -->
   
   <script>
@@ -113,7 +117,17 @@
         x.style.display = "none";  // hide again if already open
       }
     }
+
+      function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    
   </script>
+
+  
     </body>
    </html>
 
