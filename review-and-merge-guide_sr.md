@@ -26,7 +26,7 @@ This guide provides step-by-step instructions for creating a Markdown (.md) file
     Press `Ctrl+Shift+P` and select **GitLab: Create new Merge request on Current Project** from the dropdown.  
     Click **Open** to launch GitLab in your browser.
 
-![alt text](2025-06-05_13-58-58.png)
+![alt text](https://github.com/rshubhani/rshubhani.github.io/blob/main/images/2025-06-05_13-58-58.png)
  
 
 3. **Assign a Reviewer:**  
@@ -35,7 +35,7 @@ This guide provides step-by-step instructions for creating a Markdown (.md) file
 
 > **Note**: To view reviewer comments or feedback, you click the dialogue icon in the Merge Request under **Gitlab Workflow**.
 
-![alt text](2025-06-05_14-07-55.png)
+![alt text](https://github.com/rshubhani/rshubhani.github.io/blob/main/images/2025-06-05_14-07-55.png)
 
 ### How to Add Review Comments in VS Code
 
@@ -47,7 +47,7 @@ When you are assigned as a reviewer, you will receive a review email.
 4. Open the relevant file from the merge request. For example: test.md 
 5. To add a review comment, click the **+** icon next to the line where you want to comment and enter your feedback.
 
-![alt text](add_comment-1.png)
+![alt text](https://github.com/rshubhani/rshubhani.github.io/blob/main/images/add_comment-1.png)
 
 
 > **Note:**  
@@ -63,7 +63,7 @@ When you are assigned as a reviewer, you will receive a review email.
 2. Review the merge request details and any comments.
 3. Click **Approve** to approve the merge request.
 
-    ![alt text](<image (7).png>)
+    ![alt text](https://github.com/rshubhani/rshubhani.github.io/blob/main/images/image%20(7).png)
 
 
 4. (Optional) Add a final comment if needed.
