@@ -1,6 +1,6 @@
-# Review and Merge Process Guide
+# Review and Merge Process Guide using Visio Studio Code
 
-This guide provides step-by-step instructions for creating a Markdown (.md) file, reviewing it, and merging it into the working or main branch.
+This guide provides step-by-step instructions for creating a Markdown (.md) file, reviewing it, and merging it into the working or main branch using Visio Studio Code Editor.
 
 ## Creating a Markdown File in VS Code
 
