@@ -10,7 +10,7 @@ This guide provides step-by-step instructions for creating a Markdown (.md) file
 4. Stage your changes by clicking on **Source Control** in the Activity Bar, then entering a commit message and clicking **Commit**.
 5. If prompted, click **Yes** to confirm the commit in the VS Code pop-up window.
 
-![Committing Changes in VS Code](image-4.png)
+![Committing Changes in VS Code]((https://github.com/rshubhani/rshubhani.github.io/blob/main/images/image-4.png))
 
 6. Click **Sync Changes** to push your commit and pull any remote updates.
 7. Alternatively, you can use the terminal to run `git pull` and `git push` commands to sync your changes. 
