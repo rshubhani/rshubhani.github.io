@@ -306,9 +306,19 @@
     </div>
 
     <!-- Main Resume (PDF) Button Section -->
-        <button onclick="window.open('docs/Resume_Shubhani_Rawat_2025.pdf', '_blank')">
-  Download Resume (.pdf file)
-</button>
+<div class="button-section">
+  <button onclick="showSection('resumeSection')" class="main-button">
+    Resume (PDF)
+  </button>
+
+  <div id="resumeSection" class="button-container" style="display: none;">
+    <!-- This triggers a download of the PDF file -->
+    <a href="docs/Resume_Shubhani_Rawat_2025.pdf" class="sub-button" download>
+      Download Resume
+    </a>
+  </div>
+</div>
+
 
 
     
