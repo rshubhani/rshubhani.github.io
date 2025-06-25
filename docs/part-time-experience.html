@@ -3,52 +3,138 @@
 <head>
     <title>My Part-Time Working Experience</title>
 
-     <!--Google Fonts for robot-->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <style> 
-    body 
-    {
-      font-family: 'Roboto', sans-serif;
-      color: #333; 
-      line-height: 1.6; 
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      margin: 0;
-    }
+    <!--Google Fonts for robot-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-      .container {
-      width: 70%; 
-      max-width: 1200px; 
-      padding: 20px;
-      box-sizing: border-box;
-   } 
-    h3 
-    {
-      font-weight: 500; 
-    }
-    button 
-    {
-      font-family: 'Roboto', sans-serif;
-    }
-  </style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #555;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            padding: 20px 0;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+        }
+
+        h1 {
+            color: #555;
+            font-size: 2.2em;
+            font-weight: 600;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        h2 {
+            color: white;
+            font-size: 1.2em;
+            font-weight: 500;
+            margin: 30px 0 15px 0;
+            padding: 12px 20px;
+            background-color: #e24f02;
+            border-radius: 5px;
+        }
+
+        .back-button {
+            display: inline-block;
+            background-color: #e24f02;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-weight: 500;
+            margin-bottom: 25px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #c73e02;
+        }
+
+        .experience-section {
+            background-color: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 4px solid #e24f02;
+            margin-bottom: 25px;
+        }
+
+        .experience-section:hover {
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .experience-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .experience-section li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 12px;
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        .experience-section li:before {
+            content: "•";
+            color: #e24f02;
+            font-weight: 600;
+            font-size: 1.1em;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            h2 {
+                font-size: 1.1em;
+                padding: 10px 15px;
+            }
+            
+            .experience-section {
+                padding: 18px;
+            }
+        }
+    </style>
 </head>
 <body>
-
-  <div class="container">
-    <a href="index.html" style="display: inline-block; background-color: #800000; color: white; text-decoration: none; border-radius: 5px; padding: 10px 15px; font-weight: bold;">Back to Home</a>
-      <h1 style= "color: #430000;">My Part-Time Working Experience </h1>
-        <h2 style= "color: #800000;">INTERO-INTEGRITY | TECHNICAL WRITER (Part-time) | PIPELINE INSPECTION SYSTEM | FEBRUARY 2024 – MAY 2024</h2>    
-        <div style="background-color: #f5f5f5; padding: 15px; border-left: 4px solid #800000; margin-bottom: 20px;">
-          <p>
+    <div class="container">
+        <a href="index.html" class="back-button">← Back to Home</a>
+        
+        <h1>My Part-Time Working Experience</h1>
+        
+        <h2>INTERO-INTEGRITY | TECHNICAL WRITER (Part-time) | PIPELINE INSPECTION SYSTEM | FEBRUARY 2024 – MAY 2024</h2>    
+        <div class="experience-section">
             <ul>
                 <li>Developed monthly reports utilizing Microsoft Word and SharePoint.</li>
                 <li>Collaborated with Mechanical, Electrical, and Software departments to monitor project progress and complete documentation.</li>
                 <li>Ensured all documents adhered to APA referencing style.</li>
                 <li>Reported directly to the Global PMO Manager and worked closely with the CTO in the Technology and Research department.</li>
             </ul>
-        </p>
-       </div>
+        </div>
+    </div>
 </body>
 </html>
