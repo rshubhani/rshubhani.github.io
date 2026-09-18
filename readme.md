@@ -37,11 +37,8 @@ Sole documentation owner across multi-platform release cycles, translating engin
 * **[Endpoint Agent Connectivity Troubleshooting (KB)](./docs/endpoint-agent-connectivity-troubleshooting-kb.md)**
   * **Audience:** Enterprise Support and System Administrators
   * **Coverage:** Systematic resolution workflow for offline endpoints, network verification (`curl`, `nslookup`), clock skew synchronization, and sanitized escalation protocol.
-* **[Documentation Peer Review and Merge Guide](./review-and-merge-guide_sr.md)**
-  * **Audience:** Technical Writers and Engineering Contributors
-  * **Coverage:** Pull request checklists, editorial standards, Docs-as-Code workflows, and merge criteria.
 
-### 6. Review and Merge Process Guide 
+### 6. Peer Review and Merge Process Guide 
 * **[Documentation Review and Merge Process Guide ](./docs/doc_review-and-merge-guide.md)**
   * **Audience:** Cloud Architects, Platform Ops, and FinOps Practitioners
   * **Coverage:** Mandatory resource tagging taxonomy for departmental chargeback, Amazon S3 multi-tier lifecycle rules, and virtual warehouse auto-suspend controls.
