@@ -1,16 +1,18 @@
 /*<meta />*/
 
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
 body
 {
-	font-family: var(--FontFamily);
-	background-color: var(--Lightest);
+	font-family: Roboto;
+	background-color: #FFFFFF;
 }
 
 h1
 {
 	font-weight: bold;
 	font-size: 24.0pt;
-	color: var(--Dark);
+	color: #2f4f4f;
 	font-family: Roboto;
 }
 
