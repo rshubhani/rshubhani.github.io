@@ -3,8 +3,8 @@
 Technical Writer II__ with eight years of experience delivering customer-facing documentation for complex enterprise platforms, including endpoint security, cloud infrastructure, and data protection environments. 
 
 Sole documentation owner across multi-platform release cycles, translating engineering designs and architecture specifications into production administrator guides, UI workflows, API references, and release governance.
+
 [📄 Download Resume (PDF)](./Resume_Shubhani_Rawat.pdf) • [💼 LinkedIn Profile](https://www.linkedin.com/in/shubhani-rawat/) • [✉️ Email](mailto:rshubhani@gmail.com)
-[📄 Download Resume (PDF)](./docs/Resume_Shubhani_Rawat.pdf) • [💼 LinkedIn Profile](https://www.linkedin.com/in/shubhani-rawat/) • [✉️ Email](mailto:rshubhani@gmail.com)
 ---
 
 ## Documentation Samples
