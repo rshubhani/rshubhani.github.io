@@ -8,37 +8,21 @@ Sole documentation owner across multi-platform release cycles, translating engin
 
 ---
 
-## Technical Writing Portfolio
+## Documentation Samples
 
-### 1. End-User & Console Workflows
-* **[Security Event Investigation User Guide](./docs/example-security-console-user-guide.md)**
-  * **Audience:** Security Analysts, Incident Response Teams, and SOC Operators
-  * **Coverage:** Event workspace navigation, multi-variable filtering, incident severity assignment, collaborative investigation notes, and CSV/PDF compliance export procedures.
+### 1. End-User & Admin Consoles
+* **[Security Event Investigation User Guide](./docs/example-security-console-user-guide.md)** — Step-by-step workflow for security analysts to filter, triage, assign, and resolve incident alerts[cite: 3].
 
-### 2. Systems Administration & Multi-Platform Deployment
-* **[Enterprise Endpoint Agent Upgrade Guide](./docs/enterprise-endpoint-agent-upgrade-guide.md)**
-  * **Audience:** Systems Administrators and IT Operations
-  * **Coverage:** Phased pilot rollout strategy, cross-platform package deployment (`.msi`, `.pkg`, `.rpm`), service verification commands, and rollback decision gates.
-* **[Data Protection Platform Installation Guide](./docs/data-protection-platform-installation-guide.md)**
-  * **Audience:** Infrastructure Engineers and Database Administrators
-  * **Coverage:** Server prerequisites, dedicated PostgreSQL setup, PKCS#12 certificate binding, `systemd` daemon supervision, and service health checks.
+### 2. Platform Installation & Upgrades
+* **[Enterprise Endpoint Agent Upgrade Guide](./docs/enterprise-endpoint-agent-upgrade-guide.md)** — Multi-platform upgrade procedure across Windows, macOS, and Linux with pilot group validation and rollback steps[cite: 5].
+* **[Data Protection Platform Installation Guide](./docs/data-protection-platform-installation-guide.md)** — On-premise deployment walkthrough covering PostgreSQL configuration, TLS certificates, and service health checks[cite: 2].
 
-### 3. Developer Documentation & CI/CD
-* **[API Payload Validation in CI/CD](./docs/api-cicd-validation-guide.md)**
-  * **Audience:** DevOps Engineers and Platform Integration Developers
-  * **Coverage:** OpenAPI 3.0 request contract definition, automated GitHub Actions dry-run validation steps, token security, and an HTTP status resolution matrix.
+### 3. Developer & API Integration
+* **[API Payload Validation in CI/CD](./docs/api-cicd-validation-guide.md)** — Pipeline configuration guide for validating OpenAPI schemas and blocking invalid changes before production release[cite: 1].
 
-### 4. Cloud Governance & FinOps
-* **[Cloud Storage and Compute Governance Policy](./docs/cloud-storage-governance-policy.md)**
-  * **Audience:** Cloud Architects, Platform Ops, and FinOps Practitioners
-  * **Coverage:** Mandatory resource tagging taxonomy for departmental chargeback, Amazon S3 multi-tier lifecycle rules, and virtual warehouse auto-suspend controls.
+### 4. Cloud Governance & Infrastructure
+* **[Cloud Storage and Compute Governance Policy](./docs/cloud-storage-governance-policy.md)** — Operational policy defining required resource tags, S3 lifecycle tiering, and compute auto-suspend limits[cite: 8].
 
-### 5. Troubleshooting & Operations
-* **[Endpoint Agent Connectivity Troubleshooting (KB)](./docs/endpoint-agent-connectivity-troubleshooting-kb.md)**
-  * **Audience:** Enterprise Support and System Administrators
-  * **Coverage:** Systematic resolution workflow for offline endpoints, network verification (`curl`, `nslookup`), clock skew synchronization, and sanitized escalation protocol.
-
-### 6. Peer Review and Merge Process Guide 
-* **[Documentation Review and Merge Process Guide ](./docs/doc_review-and-merge-guide.md)**
-  * **Audience:** Cloud Architects, Platform Ops, and FinOps Practitioners
-  * **Coverage:** Mandatory resource tagging taxonomy for departmental chargeback, Amazon S3 multi-tier lifecycle rules, and virtual warehouse auto-suspend controls.
+### 5. Troubleshooting & Docs-as-Code Workflows
+* **[Endpoint Agent Connectivity Troubleshooting (KB)](./docs/endpoint-agent-connectivity-troubleshooting-kb.md)** — Tier-2 support runbook for diagnosing offline agents, network timeouts, and device clock skew[cite: 6].
+* **[Documentation Review and Merge Guide](./docs/doc_review-and-merge-guide.md)** — Contributor guide detailing branch creation, pull request reviews, and merge requirements in VS Code and GitLab.
