@@ -10,7 +10,8 @@ Sole documentation owner across multi-platform release cycles, translating engin
 
 ## Documentation Samples
 
-### 1. **[Security Event Investigation User Guide](./docs/example-security-console-user-guide.md)**
+### 1. End-User & Admin Consoles
+* **[Security Event Investigation User Guide](./docs/example-security-console-user-guide.md)**
 * Step-by-step workflow for security analysts to filter, triage, assign, and resolve incident alerts[cite: 3].
 
 ### 2. Platform Installation & Upgrades
