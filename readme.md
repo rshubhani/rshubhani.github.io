@@ -30,4 +30,4 @@ Sole documentation owner across multi-platform release cycles, translating engin
 
 ### 6. Authoring Tools & Multi-Channel Publishing
 * **[Interactive Help System (MadCap Flare HTML5 Build)](https://rshubhani.github.io/docs/flare-sample/Default.htm)** — Responsive online documentation system featuring search filtering, topic navigation, and condition tags.
-* **[Print Target Deliverable (PDF)](./docs/yoga-and-diet-guide.pdf)** — Companion PDF guide generated from the same MadCap Flare source project using print condition tags and target-specific page layouts.
+* **[Print Target Deliverable (PDF)](./docs/yoga-and-diet-PDF.pdf)** — Companion PDF guide generated from the same MadCap Flare source project using print condition tags and target-specific page layouts.
