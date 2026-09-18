@@ -2,9 +2,9 @@
 
 Technical Writer II__ with eight years of experience delivering customer-facing documentation for complex enterprise platforms, including endpoint security, cloud infrastructure, and data protection environments. 
 
-Sole documentation owner across multi-platform release cycles, translating engineering designs and architecture specifications into production administrator runbooks, UI workflows, API references, and release governance.
+Sole documentation owner across multi-platform release cycles, translating engineering designs and architecture specifications into production administrator guides, UI workflows, API references, and release governance.
 
-[📄 Download Resume (PDF)](./docs/Resume_Shubhani_Rawat.pdf) • [💼 LinkedIn Profile](https://linkedin.com) • [✉️ Email](mailto:rshubhani@gmail.com)
+[📄 Download Resume (PDF)](./docs/Resume_Shubhani_Rawat.pdf) • [💼 LinkedIn Profile](https://www.linkedin.com/in/shubhani-rawat/) • [✉️ Email](mailto:rshubhani@gmail.com)
 
 ---
 
@@ -40,3 +40,8 @@ Sole documentation owner across multi-platform release cycles, translating engin
 * **[Documentation Peer Review and Merge Guide](./review-and-merge-guide_sr.md)**
   * **Audience:** Technical Writers and Engineering Contributors
   * **Coverage:** Pull request checklists, editorial standards, Docs-as-Code workflows, and merge criteria.
+
+### 6. Review and Merge Process Guide 
+* **[Documentation Review and Merge Process Guide ](./docs/doc_review-and-merge-guide.md)**
+  * **Audience:** Cloud Architects, Platform Ops, and FinOps Practitioners
+  * **Coverage:** Mandatory resource tagging taxonomy for departmental chargeback, Amazon S3 multi-tier lifecycle rules, and virtual warehouse auto-suspend controls.
