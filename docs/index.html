@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Documentation & Portfolio Guide | Shubhani Rawat</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --sidebar-bg: #f8fafc;
+      --border: #e2e8f0;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --primary-subtle: #eff6ff;
+      --code-bg: #f1f5f9;
+      --badge-green-bg: #dcfce7;
+      --badge-green-text: #166534;
+      --max-width: 1140px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: var(--text);
+      background-color: var(--bg);
+      line-height: 1.6;
+    }
+
+    /* Top Global Navbar */
+    .nav-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      height: 64px;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+    .nav-brand {
+      font-weight: 700;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--text);
+      text-decoration: none;
+    }
+    .nav-badge {
+      font-size: 0.75rem;
+      padding: 2px 8px;
+      background: var(--code-bg);
+      border-radius: 999px;
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      font-weight: 600;
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .nav-links a {
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      text-decoration: none;
+      padding: 6px 14px;
+      border-radius: 6px;
+      border: 1px solid transparent;
+      transition: all 0.15s ease;
+    }
+    .nav-links a:hover {
+      color: var(--primary);
+      border-color: var(--border);
+      background: var(--sidebar-bg);
+    }
+    .nav-links a.btn-resume {
+      background: var(--primary);
+      color: #fff;
+      font-weight: 600;
+    }
+    .nav-links a.btn-resume:hover {
+      background: var(--primary-hover);
+      color: #fff;
+    }
+
+    /* Layout */
+    .doc-layout {
+      display: flex;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      min-height: calc(100vh - 64px);
+      padding: 0 20px;
+    }
+
+    /* Sidebar Navigation */
+    .doc-sidebar {
+      width: 280px;
+      flex-shrink: 0;
+      border-right: 1px solid var(--border);
+      background: var(--sidebar-bg);
+      padding: 24px 16px;
+      position: sticky;
+      top: 64px;
+      height: calc(100vh - 64px);
+      overflow-y: auto;
+    }
+
+    .search-box-wrapper {
+      margin-bottom: 20px;
+    }
+    .search-input {
+      width: 100%;
+      padding: 9px 12px;
+      font-size: 0.88rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background-color: #ffffff;
+      color: var(--text);
+      outline: none;
+      transition: all 0.15s;
+    }
+    .search-input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+    }
+
+    .sidebar-group {
+      margin-bottom: 22px;
+    }
+    .sidebar-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+      padding-left: 10px;
+    }
+    .sidebar-menu {
+      list-style: none;
+    }
+    .sidebar-menu a {
+      display: block;
+      padding: 7px 10px;
+      color: #334155;
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 500;
+      border-radius: 6px;
+      transition: all 0.12s;
+    }
+    .sidebar-menu a:hover {
+      background: #e2e8f0;
+      color: var(--text);
+    }
+
+    /* Main Workspace */
+    .doc-content {
+      flex-grow: 1;
+      padding: 36px 0 80px 40px;
+      min-width: 0;
+    }
+
+    .doc-header h1 {
+      font-size: 2.15rem;
+      letter-spacing: -0.025em;
+      margin-bottom: 6px;
+    }
+    .doc-lead {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+    }
+
+    .callout {
+      border-left: 4px solid var(--primary);
+      background: var(--primary-subtle);
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin-bottom: 34px;
+      font-size: 0.92rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      letter-spacing: -0.015em;
+      margin: 40px 0 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* Collapsible Disclosure Cards */
+    details.doc-card {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 14px;
+      background: #fff;
+      overflow: hidden;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    details.doc-card[open] {
+      border-color: #cbd5e1;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    }
+    summary.doc-summary {
+      padding: 16px 20px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 600;
+      font-size: 0.98rem;
+      user-select: none;
+      background: #ffffff;
+      list-style: none;
+    }
+    summary.doc-summary::-webkit-details-marker { display: none; }
+    summary.doc-summary:hover {
+      background: var(--sidebar-bg);
+    }
+    .summary-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .chevron {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      transition: transform 0.2s ease;
+    }
+    details[open] .chevron {
+      transform: rotate(90deg);
+    }
+
+    /* Badges */
+    .badge-live {
+      font-size: 0.72rem;
+      font-weight: 600;
+      background: var(--badge-green-bg);
+      color: var(--badge-green-text);
+      padding: 3px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.02em;
+    }
+    .badge-md {
+      font-size: 0.72rem;
+      font-weight: 600;
+      background: #f1f5f9;
+      color: #475569;
+      padding: 3px 8px;
+      border-radius: 4px;
+    }
+
+    .card-body {
+      padding: 18px 20px 20px;
+      border-top: 1px solid var(--border);
+      background: #fafafa;
+      font-size: 0.91rem;
+      color: #334155;
+    }
+    .card-body p { margin-bottom: 12px; }
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 16px;
+    }
+    .tag {
+      font-size: 0.75rem;
+      padding: 2px 8px;
+      background: #e2e8f0;
+      color: #334155;
+      border-radius: 4px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+    .card-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-weight: 600;
+      font-size: 0.86rem;
+      color: #ffffff;
+      background: var(--primary);
+      padding: 7px 14px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background-color 0.15s;
+    }
+    .card-btn:hover { background: var(--primary-hover); }
+    .card-btn-secondary {
+      background: #ffffff;
+      color: #0f172a;
+      border: 1px solid var(--border);
+      margin-left: 8px;
+    }
+    .card-btn-secondary:hover { background: #f1f5f9; }
+
+    #noResults {
+      display: none;
+      padding: 30px;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      background: var(--sidebar-bg);
+      border-radius: 8px;
+      border: 1px dashed var(--border);
+      margin-top: 20px;
+    }
+
+    @media (max-width: 860px) {
+      .doc-sidebar { display: none; }
+      .doc-content { padding: 24px 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Global Header -->
+  <header class="nav-header">
+    <div class="nav-container">
+      <a class="nav-brand" href="#">
+        <span>Shubhani Rawat</span>
+        <span class="nav-badge">Docs Portal</span>
+      </a>
+      <nav class="nav-links">
+        <a href="https://www.linkedin.com/in/shubhani-rawat/" target="_blank">LinkedIn ↗</a>
+        <a href="https://github.com/rshubhani/rshubhani.github.io" target="_blank">GitHub ↗</a>
+        <a class="btn-resume" href="./flare-sample/yoga-and-diet.pdf" target="_blank">Resume PDF</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="doc-layout">
+
+    <!-- Sidebar with Search Filter -->
+    <aside class="doc-sidebar">
+      <div class="search-box-wrapper">
+        <input type="text" id="docSearch" class="search-input" placeholder="Search documentation topics..." />
+      </div>
+
+      <div class="sidebar-group">
+        <div class="sidebar-title">Getting Started</div>
+        <ul class="sidebar-menu">
+          <li><a href="#overview">Profile & Architecture</a></li>
+          <li><a href="#authoring-tools">Authoring & Single-Sourcing</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-group">
+        <div class="sidebar-title">Documentation Libraries</div>
+        <ul class="sidebar-menu">
+          <li><a href="#admin-guides">Administration & Ops</a></li>
+          <li><a href="#release-notes">Release Notes & Life Cycle</a></li>
+          <li><a href="#troubleshooting-kb">Knowledge Base & KBAs</a></li>
+          <li><a href="#docs-as-code">Docs-as-Code & Pipelines</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Main Workspace -->
+    <main class="doc-content">
+      
+      <section id="overview" class="doc-header">
+        <h1>Technical Writer II</h1>
+        <p class="doc-lead">Specializing in Enterprise Systems, Cloud Architecture, Single-Source Authoring &amp; Docs-as-Code Workflows.</p>
+        
+        <div class="callout">
+          <strong>Interactive Documentation Guide:</strong> Use the search filter in the sidebar or expand topics below to inspect documentation deliverables, single-source architectures, and developer workflows.
+        </div>
+      </section>
+
+      <div id="noResults">No documentation topics match your search query.</div>
+
+      <!-- Section: Authoring Tools -->
+      <section id="authoring-tools" class="doc-section">
+        <h2>1. Authoring Tools &amp; Multi-Channel Publishing</h2>
+        
+        <details class="doc-card" open>
+          <summary class="doc-summary">
+            <div class="summary-left">
+              <span class="chevron">▶</span>
+              <span class="topic-title">Interactive Help System (MadCap Flare HTML5 Build)</span>
+            </div>
+            <span class="badge-live">Live WebHelp Guide Sample</span>
+          </summary>
+          <div class="card-body">
+            <p>A responsive side-navigation HTML5 help deliverable compiled from a modular source project. Demonstrates condition tags, snippets, target variables, and search index generation.</p>
+            <div class="card-tags">
+              <span class="tag">MadCap Flare</span>
+              <span class="tag">HTML5 Target</span>
+              <span class="tag">Side-Nav Skin</span>
+              <span class="tag">Search Indexing</span>
+            </div>
+            <a class="card-btn" href="./flare-sample/Default.htm" target="_blank">Open Live Help System ↗</a>
+          </div>
+        </details>
+
+        <details class="doc-card">
+          <summary class="doc-summary">
+            <div class="summary-left">
+              <span class="chevron">▶</span>
+              <span class="topic-title">Companion Print Deliverable (PDF Target)</span>
+            </div>
+            <span class="badge-md">PDF</span>
+          </summary>
+          <div class="card-body">
+            <p>Single-source print target compiled from the identical Flare source repository, demonstrating print condition filters, front matter layouts, running headers/footers, and page breaks.</p>
+            <div class="card-tags">
+              <span class="tag">MadCap Flare</span>
+              <span class="tag">PDF Page Layouts</span>
+              <span class="tag">Single-Source Publishing</span>
+            </div>
+            <a class="card-btn card-btn-secondary" href="./flare-sample/yoga-and-diet.pdf" target="_blank">Download PDF Guide ↗</a>
+          </div>
+        </details>
+      </section>
+
+      <!-- Section: Enterprise Systems -->
+      <section id="admin-guides" class="doc-section">
+        <h2>2. Administration &amp; Operations Guides</h2>
+
+        <details class="doc-card">
+          <summary class="doc-summary">
+            <div class="summary-left">
+              <span class="chevron">▶</span>
+              <span class="topic-title">Security Console Administrator Guide</span>
+            </div>
+            <span class="badge-md">Markdown</span>
+          </summary>
+          <div class="card-body">
+            <p>Comprehensive enterprise user manual covering security policy provisioning, role-based access control (RBAC), agent group policies, and posture verification dashboards.</p>
+            <div class="card-tags">
+              <span class="tag">Admin Console</span>
+              <span class="tag">Security Policy</span>
+              <span class="tag">RBAC</span>
+            </div>
+            <a class="card-btn card-btn-secondary" href="https://github.com/rshubhani/rshubhani.github.io/blob/main/docs/example-security-console-user-guide.md" target="_blank">View Guide Source ↗</a>
+          </div>
+        </details>
+
+        <details class="doc-card">
+          <summary class="doc-summary">
+            <div class="summary-left">
+              <span class="chevron">▶</span>
+              <span class="topic-title">Data Protection Platform Installation Guide</span>
+            </div>
+            <span class="badge-md">Markdown</span>
+          </summary>
+          <div class="card-body">
+            <p>Technical deployment specification detailing hardware sizing, cluster topologies, firewall/port dependencies, and database pre-flight checks.</p>
+            <div class="card-tags">
+              <span class="tag">Infrastructure</span>
+              <span class="tag">On-Prem / Cloud</span>
+              <span class="tag">Deployment</span>
+            </div>
+            <a class="card-btn card-btn-secondary" href="https://github.com/rshubhani/rshubhani.github.io/blob/main/docs/data-protection-platform-installation-guide.md" target="_blank">View Installation Guide ↗</a>
+          </div>
+        </details>
+
+        <details class="doc-card">
+          <summary class="doc-summary">
+            <div class="summary-left">
+              <span class="chevron">▶</span>
+              <span class="topic-title">Enterprise Endpoint Agent Upgrade Guide</span>
+            </div>
+            <span class="badge-md">Markdown</span>
+          </summary>
+          <div class="card-body">
+            <p>Operational rollout guide covering silent agent upgrades, phased ring deployments, health check scripts, and disaster rollback plans across Windows and macOS endpoints.</p>
+            <div class="card-tags">
+              <span class="tag">Agent Rollout</span>
+              <span class="tag">Endpoint Security</span>
+            </div>
+            <a class="card-btn card-btn-secondary" href="https://github.com/rshubhani/rshubhani.github.io/blob/main/docs/enterprise-endpoint-agent-upgrade-guide.md" target="_blank">View Upgrade Guide ↗</a>
+          </div>
+        </details>
+      </section>
+
+      <!-- Section: Release Notes -->
+      <section id="release-notes" class="doc-section">
+        <h2>3. Release Documentation &amp; Lifecycle</h2>
+
+        <details class="doc-card">
+          <summary class="doc-summary">
+            <div class="summary-left">
+              <span class="chevron">▶</span>
+              <span class="topic-title">Endpoint Agent Customer Release Notes</span>
+            </div>
+            <span class="badge-md">Markdown</span>
+          </summary>
+          <div class="card-body">
+            <p>Customer-facing documentation tracking new functionality, security vulnerability fixes (CVEs), deprecation timelines, and binary upgrade hashes.</p>
+            <div class="card-tags">
+              <span class="tag">Release Notes</span>
+              <span class="tag">Version Control</span>
+              <span class="tag">Change Logs</span>
+            </div>
+            <a class="card-btn card-btn-secondary" href="https://github.com/rshubhani/rshubhani.github.io/blob/main/docs/example-endpoint-agent-release-notes.md" target="_blank">Read Release Notes ↗</a>
+          </div>
+        </details>
+      </section>
+
+      <!-- Section: Troubleshooting -->
+      <section id="troubleshooting-kb" class="doc-section">
+        <h2>4. Troubleshooting &amp; Knowledge Base</h2>
+
+        <details class="doc-card">
+          <summary class="doc-summary">
+            <div class="summary-left">
+              <span class="chevron">▶</span>
+              <span class="topic-title">Endpoint Agent Connectivity Troubleshooting KB</span>
+            </div>
+            <span class="badge-md">Markdown</span>
+          </summary>
+          <div class="card-body">
+            <p>Diagnostic resolution article designed for Tier-2/3 support engineers. Features root-cause trees, TLS handshake error codes, and packet trace verification steps.</p>
+            <div class="card-tags">
+              <span class="tag">Knowledge Base</span>
+              <span class="tag">Diagnostics</span>
+              <span class="tag">Network Logs</span>
+            </div>
+            <a class="card-btn card-btn-secondary" href="https://github.com/rshubhani/rshubhani.github.io/blob/main/docs/endpoint-agent-connectivity-troubleshooting-kb.md" target="_blank">Inspect Diagnostic KB ↗</a>
+          </div>
+        </details>
+      </section>
+
+      <!-- Section: Docs-as-Code -->
+      <section id="docs-as-code" class="doc-section">
+        <h2>5. Docs-as-Code &amp; CI/CD Infrastructure</h2>
+
+        <details class="doc-card">
+          <summary class="doc-summary">
+            <div class="summary-left">
+              <span class="chevron">▶</span>
+              <span class="topic-title">Docs-as-Code: Review &amp; Merge Workflow Guide</span>
+            </div>
+            <span class="badge-md">Markdown</span>
+          </summary>
+          <div class="card-body">
+            <p>Standard operating procedure establishing Git branch lifecycles, markdown style guide rules, pull request reviews, and engineering approvals.</p>
+            <div class="card-tags">
+              <span class="tag">Git &amp; GitHub</span>
+              <span class="tag">Editorial Process</span>
+              <span class="tag">PR Review</span>
+            </div>
+            <a class="card-btn card-btn-secondary" href="https://github.com/rshubhani/rshubhani.github.io/blob/main/docs/doc_review-and-merge-guide.md" target="_blank">View Workflow Guide ↗</a>
+          </div>
+        </details>
+
+        <details class="doc-card">
+          <summary class="doc-summary">
+            <div class="summary-left">
+              <span class="chevron">▶</span>
+              <span class="topic-title">API &amp; CI/CD Pipeline Validation Guide</span>
+            </div>
+            <span class="badge-md">Markdown</span>
+          </summary>
+          <div class="card-body">
+            <p>Automation pipeline specification covering vale linting, link validation, OpenAPI schema verification, and build stages in GitHub Actions.</p>
+            <div class="card-tags">
+              <span class="tag">CI/CD</span>
+              <span class="tag">Linting</span>
+              <span class="tag">Automation</span>
+            </div>
+            <a class="card-btn card-btn-secondary" href="https://github.com/rshubhani/rshubhani.github.io/blob/main/docs/api-cicd-validation-guide.md" target="_blank">View Validation Guide ↗</a>
+          </div>
+        </details>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Instant Search Script -->
+  <script>
+    const searchInput = document.getElementById('docSearch');
+    const cards = document.querySelectorAll('.doc-card');
+    const sections = document.querySelectorAll('.doc-section');
+    const noResults = document.getElementById('noResults');
+
+    searchInput.addEventListener('input', (e) => {
+      const query = e.target.value.toLowerCase().trim();
+      let totalVisible = 0;
+
+      cards.forEach(card => {
+        const text = card.innerText.toLowerCase();
+        if (!query || text.includes(query)) {
+          card.style.display = 'block';
+          totalVisible++;
+          if (query) { card.open = true; } // Auto-expand when searching
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      sections.forEach(sec => {
+        const hasVisible = Array.from(sec.querySelectorAll('.doc-card')).some(c => c.style.display !== 'none');
+        sec.style.display = hasVisible ? 'block' : 'none';
+      });
+
+      noResults.style.display = totalVisible === 0 ? 'block' : 'none';
+    });
+  </script>
+
+</body>
+</html>
