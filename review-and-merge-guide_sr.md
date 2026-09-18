@@ -1,72 +1,68 @@
-# Review and Merge Process Guide using Visio Studio Code
+# Documentation Review and Merge Guide Using Visual Studio Code
 
-This guide provides step-by-step instructions for creating a Markdown (.md) file, reviewing it, and merging it into the working or main branch using Visio Studio Code Editor.
-
-## Creating a Markdown File in VS Code
-
-1. Go to **File** > **New File**.
-2. Add your content to the new file.
-3. Save the file with a `.md` extension via **File** > **Save**.
-4. Stage your changes by clicking on **Source Control** in the Activity Bar, then entering a commit message and clicking **Commit**.
-5. If prompted, click **Yes** to confirm the commit in the VS Code pop-up window.
-
-![Committing Changes in VS Code](https://github.com/rshubhani/rshubhani.github.io/blob/main/images/image-4.png)
-
-6. Click **Sync Changes** to push your commit and pull any remote updates.
-7. Alternatively, you can use the terminal to run `git pull` and `git push` commands to sync your changes. 
+This guide provides step-by-step instructions for authoring Markdown (`.md`) documentation, collaborating through peer review, and merging changes into the target branch using Visual Studio Code and the GitLab Workflow extension.
 
 
-## Steps to Perform Peer Review
 
-1. **Push your changes:**  
-    Ensure all your latest changes are committed and pushed to the remote repository.
+## 1. Create and Author a Topic Branch
 
-2. **Create a Merge Request (MR):**  
-    Open the GitLab Workflow in VS Code.  
-    Press `Ctrl+Shift+P` and select **GitLab: Create new Merge request on Current Project** from the dropdown.  
-    Click **Open** to launch GitLab in your browser.
+Always author new documentation on a dedicated topic branch rather than committing directly to `main`.
 
-![alt text](https://github.com/rshubhani/rshubhani.github.io/blob/main/images/2025-06-05_13-58-58.png)
- 
+1. Open your documentation repository in **VS Code**.
+2. Open the integrated terminal (`Ctrl+` `) and create a new feature branch:
 
-3. **Assign a Reviewer:**  
-    In GitLab (browser), create the Merge Request and assign it to a reviewer.  
-    Click on **Create Merge Request** to submit your request.
+> ```bash
+> git checkout -b docs/add-feature-guide
+> Create your content file by selecting File > New File (e.g., feature-guide.md).
 
-> **Note**: To view reviewer comments or feedback, you click the dialogue icon in the Merge Request under **Gitlab Workflow**.
+3. Author your content using standard Markdown syntax and save the file (File > Save).
+4. In the Activity Bar, click Source Control (or press Ctrl+Shift+G).
+5. Stage your modified files, enter a concise commit message (e.g., docs: add feature deployment guide), and click Commit.
 
-![alt text](https://github.com/rshubhani/rshubhani.github.io/blob/main/images/2025-06-05_14-07-55.png)
+## Open a Merge Request (MR)
+Push your topic branch and open a review request directly from the editor:
 
-### How to Add Review Comments in VS Code
+1. In the terminal, push your branch to the remote repository:
 
-When you are assigned as a reviewer, you will receive a review email.
+> ```bash
+>git push -u origin docs/add-feature-guide
 
-1. Open VS Code and go to the **GitLab Workflow** extension.
-2. Click **Refresh** to update the list of merge requests.
-3. Select **Merge Requests assigned to me**.
-4. Open the relevant file from the merge request. For example: test.md 
-5. To add a review comment, click the **+** icon next to the line where you want to comment and enter your feedback.
+2. Press Ctrl+Shift+P to open the Command Palette.
+3. Search for and select GitLab: Create new Merge Request on Current Project.
+4. Click Open to launch the GitLab merge request form in your browser.
+5. In the GitLab interface:
+* Specify the Target Branch (e.g., main or staging).
+* Select a primary reviewer from the Assignee or Reviewers field.
+* Add a brief summary of the documentation changes and link any related Jira issue keys.
+6. Click Create Merge Request.
 
-![alt text](https://github.com/rshubhani/rshubhani.github.io/blob/main/images/add_comment-1.png)
+> **Note:** To monitor reviewer feedback inside VS Code, open the GitLab Workflow extension icon in the Activity Bar and expand your active Merge Requests.
+
+## Conduct Peer Review in VS Code
+When assigned as a technical or editorial reviewer:
+
+1. Open VS Code and select the GitLab Workflow icon in the Activity Bar.
+2. Click Refresh to retrieve the latest review queue.
+3. Expand Merge Requests assigned to me and select the target request.
+4. Click on a modified file to inspect the diff view.
+5. To post an inline review comment, hover over the relevant line number, click the + (Add Comment) icon, enter your feedback, and click Add Comment.
+
+**Best Practice:** Before final approval, always rebase or pull from the base branch to resolve potential conflicts early:
+
+> ```bash
+> git fetch origin
+> git rebase origin/main
+> ```
 
 
-> **Note:**  
-> Before merging, always sync your local branch with the latest remote changes:
-> - Pull the latest changes before pushing or merging.
-> - Not syncing can cause merge conflicts.
-> - Ensure your branch is up to date with the base branch before creating a Merge Request.
+## 4. Approve and Merge
 
+Once all review discussions are resolved and automated CI linters pass:
 
-## Approve and Merge
+1. Navigate to the Merge Request page in GitLab (via browser or the notification email).
+2. Verify that all discussions are marked **Resolved**.
+3. Click **Approve**.
+4. *(Optional)* Check **Delete source branch** and **Squash commits** to maintain a clean Git history.
+5. Click **Merge** to integrate the updates into the production branch.
 
-1. Open GitLab using the link provided in the review email, or navigate to your project in GitLab.
-2. Review the merge request details and any comments.
-3. Click **Approve** to approve the merge request.
-
-    ![alt text](https://github.com/rshubhani/rshubhani.github.io/blob/main/images/image%20(7).png)
-
-
-4. (Optional) Add a final comment if needed.
-5. Click **Merge** to complete the process and merge the changes into the target branch.
-
-> **Note:** If your access token has exired create anew one and add the token in the pasword field when Git Credential Manager.  
+> **Tip:** If authentication fails during push or pull operations, verify that your GitLab Personal Access Token (PAT) has the `read_repository` and `write_repository` scopes enabled and has not expired.
