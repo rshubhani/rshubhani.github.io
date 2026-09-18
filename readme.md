@@ -29,5 +29,5 @@ Sole documentation owner across multi-platform release cycles, translating engin
 * **[Documentation Review and Merge Guide](./docs/doc_review-and-merge-guide.md)** — Contributor guide detailing branch creation, pull request reviews, and merge requirements in VS Code and GitLab.
 
 ### 6. Authoring Tools & Multi-Channel Publishing
-* **[Interactive Help System (MadCap Flare HTML5 Build)] (https://rshubhani.github.io/flare-sample/Default.htm)** — Responsive online documentation system featuring search filtering, topic navigation, and condition tags.
+* **[Interactive Help System (MadCap Flare HTML5 Build)](https://rshubhani.github.io/flare-sample/Default.htm)** — Responsive online documentation system featuring search filtering, topic navigation, and condition tags.
 * **[Print Target Deliverable (PDF)](./docs/flare-sample/yoga-and-diet.pdf)** — Companion PDF guide generated from the same MadCap Flare source project using print condition tags and target-specific page layouts.
