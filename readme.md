@@ -11,7 +11,8 @@ Sole documentation owner across multi-platform release cycles, translating engin
 ## Documentation Samples
 
 ### 1. End-User & Admin Consoles
-* **[Security Event Investigation User Guide](./docs/example-security-console-user-guide.md)** — Step-by-step workflow for security analysts to filter, triage, assign, and resolve incident alerts[cite: 3].
+* **[Security Event Investigation User Guide](./docs/example-security-console-user-guide.md)**
+* Step-by-step workflow for security analysts to filter, triage, assign, and resolve incident alerts[cite: 3].
 
 ### 2. Platform Installation & Upgrades
 * **[Enterprise Endpoint Agent Upgrade Guide](./docs/enterprise-endpoint-agent-upgrade-guide.md)** — Multi-platform upgrade procedure across Windows, macOS, and Linux with pilot group validation and rollback steps[cite: 5].
