@@ -28,4 +28,5 @@ Sole documentation owner across multi-platform release cycles, translating engin
 * **[Endpoint Agent Connectivity Troubleshooting (KB)](./docs/endpoint-agent-connectivity-troubleshooting-kb.md)** — Tier-2 support runbook for diagnosing offline agents, network timeouts, and device clock skew[cite: 6].
 * **[Documentation Review and Merge Guide](./docs/doc_review-and-merge-guide.md)** — Contributor guide detailing branch creation, pull request reviews, and merge requirements in VS Code and GitLab.
 
-https://rshubhani.github.io/docs/flare-sample/Default.htm
+https://rshubhani.github.io/docs/flare-sample/Output/shubhani_rawat/yoga&diet_HTML5/Default.htm
+
