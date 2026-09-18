@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1" DescendantCount="36">
+    <TocEntry Title="Yoga &amp; Healthy Living" Link="/Content/Topic/Welcome_Page.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" PageType="first" StartSection="false" PageNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/Chapter.flpgl" ComputedResetPageLayout="true" ComputedFirstTopic="true" DescendantCount="0" />
+    <TocEntry Title="What is Healthy Living?" Link="/Content/Topic/Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" PageType="first" StartSection="false" PageNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/Chapter.flpgl" ComputedResetPageLayout="true" ComputedFirstTopic="false" DescendantCount="0" />
+    <TocEntry Title="What is Yoga" Link="/Content/Topic/Yoga/yoga_intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" PageType="first" StartSection="false" PageNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/Chapter.flpgl" ComputedResetPageLayout="true" ComputedFirstTopic="false" DescendantCount="19">
+        <TocEntry Title="The Role of Yoga in Wellness" Link="/Content/Topic/Yoga/role_of_yoga.htm" StartSection="false" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Getting Started with Yoga" Link="/Content/Topic/Yoga/getting_started.htm" ComputedFirstTopic="false" DescendantCount="16">
+            <TocEntry Title="Basic Yoga Equipment" Link="/Content/Topic/Yoga/yoga_equipments.htm" ComputedFirstTopic="false" DescendantCount="1">
+                <TocEntry Title="Beginner Guidelines &amp; Safety" Link="/Content/Topic/Yoga/begineer_guidelines.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Yoga Poses for Beginners" Link="/Content/Topic/Yoga/yoga_for_begineers.htm" ComputedFirstTopic="false" DescendantCount="13">
+                <TocEntry Title="Surya Namaskar (Sun Salutation)" Link="/Content/Topic/Yoga/surya_namaskar.htm" ComputedFirstTopic="false" DescendantCount="12">
+                    <TocEntry Title="Step 1 - Prayer Pose" Link="/Content/Topic/Yoga/yoga_poses/step_1_Prayer.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Step 2 - Raised Arms Pose" Link="/Content/Topic/Yoga/yoga_poses/step_2_raisedarms.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Step 3 - Standing Forward Bend" Link="/Content/Topic/Yoga/yoga_poses/step_3_forwardbend.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Step 4 - Equestrian Pose" Link="/Content/Topic/Yoga/yoga_poses/step_4_equestrian.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Step 5 - Plank Pose" Link="/Content/Topic/Yoga/yoga_poses/step_5_plank.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Step 6 -  Eight Limbed Pose" Link="/Content/Topic/Yoga/yoga_poses/step_6_eightlimbed.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Step 7 - Cobra Pose" Link="/Content/Topic/Yoga/yoga_poses/step_7_cobra.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Step 8 - Downward Dog" Link="/Content/Topic/Yoga/yoga_poses/step_8_downwardog.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Step 9 - Equestrian Pose" Link="/Content/Topic/Yoga/yoga_poses/step_9_equestrian.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Step 10 - Standing Forward Bend" Link="/Content/Topic/Yoga/yoga_poses/step_10_forwardbend.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Step 11 - Raised Arms Pose" Link="/Content/Topic/Yoga/yoga_poses/step_11_raisedarms.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Step 12 - Prayer Pose" Link="/Content/Topic/Yoga/yoga_poses/step_12_prayer.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+            </TocEntry>
+        </TocEntry>
+        <TocEntry Title="Key Takeaway" Link="/Content/Topic/Yoga/key_takeaway.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Body and Fuel Connection" Link="/Content/Topic/body_fuel_connection.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" PageType="first" StartSection="false" PageNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/Chapter.flpgl" ComputedResetPageLayout="true" ComputedFirstTopic="false" DescendantCount="11">
+        <TocEntry Title="Why Food Matters in Yoga" Link="/Content/Topic/Diet/why_food_matters.htm" StartSection="false" ComputedFirstTopic="false" DescendantCount="9">
+            <TocEntry Title="The Patanjali - Inspired Approach to Eating" Link="/Content/Topic/Diet/patanjali_approach/the_patanjali.htm" ComputedFirstTopic="false" DescendantCount="5">
+                <TocEntry Title="The Principle of Mitahara" Link="/Content/Topic/Diet/patanjali_approach/moderation_eating.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Mindful Eating Practices" Link="/Content/Topic/Diet/patanjali_approach/mindful_eating_practices.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Herbal &amp; Natural Supports" Link="/Content/Topic/Diet/patanjali_approach/herbal_natural_supports.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Sattvic Vegetable Khichdi Recipe" Link="/Content/Topic/Diet/patanjali_approach/sattvic_khichadi_recipe.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Food as a Yogic Practice" Link="/Content/Topic/Diet/patanjali_approach/food_as_yogic_practice.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="A Simple, Modern Approach to Healthy Eating " Link="/Content/Topic/Diet/simple_approach/simple_approach.htm" ComputedFirstTopic="false" DescendantCount="2">
+                <TocEntry Title="Practical Guidelines for Everyday Nutrition" Link="/Content/Topic/Diet/simple_approach/key_foundations.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Quinoa and Veggie Salad Recipe" Link="/Content/Topic/Diet/simple_approach/quinoa_salad.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+        </TocEntry>
+        <TocEntry Title="Yogic vs. Simple Modern Approach" Link="/Content/Topic/Diet/comparison_yogic_vs_simple.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="Living the Yogic Way of Wellness" Link="/Content/Topic/yogic_way_of_wellness.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" PageType="first" StartSection="false" PageNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/Chapter.flpgl" ComputedResetPageLayout="true" ComputedFirstTopic="false" DescendantCount="0" />
+    <TocEntry Title="Glossary" Link="/Content/Topic/Glossary.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" PageType="first" StartSection="false" PageNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/Chapter.flpgl" ComputedResetPageLayout="true" ComputedFirstTopic="false" DescendantCount="0" />
+</CatapultToc>

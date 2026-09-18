@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  ShowMadCapBacklink="true"
+  MasterToc="/Project/TOCs/yoga&amp;diet_toc.fltoc"
+  MasterPageLayout="/Content/Resources/PageLayouts/BodyUpdated.flpgl"
+  MasterStylesheetOverride="false"
+  UseEmptyAltText="true"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
+  BrandingStylesheet="/Content/Resources/Branding/Branding.css"
+  DisableAutoSync="true"
+  ConditionTagExpression="include[Default.PrintOnly], exclude[Default.ScreenOnly or Default.Web]"
+  PatchHeadingLevels="true"
+  GlossaryTermConversion="marked">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    OutputFormat="docx"
+    PopupConversion="expand"
+    ExpandingTextConversion="expand" />
+  <PDF
+    Tagged="false"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true"
+    ShowUsedBookmarks="false" />
+</CatapultTarget>

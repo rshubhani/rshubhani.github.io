@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  ShowMadCapBacklink="false"
+  GlossaryTermConversion="marked"
+  ResolveCssVariables="true"
+  MasterToc="/Project/TOCs/yoga&amp;diet_toc.fltoc"
+  Skin="/Project/Skins/HTML5 - Side Navigation.flskn"
+  EquationsOutputType="SVG"
+  MasterPage="/Content/Resources/Templatepage/MasterPage.flmsp"
+  ConditionTagExpression="exclude[Default.PrintOnly]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true"
+    OutputFormat="doc" />
+</CatapultTarget>

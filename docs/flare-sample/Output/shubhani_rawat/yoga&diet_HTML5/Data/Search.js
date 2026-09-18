@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/Topic/Diet/comparison_yogic_vs_simple.htm'],s:['1'],p:[['1',9],['limited',5],['yogi',28]]});

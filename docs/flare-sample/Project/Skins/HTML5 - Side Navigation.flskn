@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="6"
+  SkinType="WebHelp2"
+  ComponentType="MasterPage"
+  TemplateName="Fluid"
+  Comment="HTML5 Side Navigation skin"
+  EnableResponsiveOutput="True"
+  AutoSyncTOC="true">
+  <WebHelpOptions
+    NavigationPanePosition="Right"
+    OffCanvasMenuStyle="Accordion"
+    MainMenuPosition="Left"
+    EnableSticky="All" />
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Logo">
+        <Properties>
+          <Property
+            Name="BackgroundImage">url('Logo_guide.png')</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Side Navigation Menu">
+        <Properties>
+          <Property
+            Name="BackgroundColor">var(--Dark)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Menu" />
+      <Style
+        Name="Search Input">
+        <Properties>
+          <Property
+            Name="Color">var(--Dark)</Property>
+          <Property
+            Name="BackgroundColor">#ffffff</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Filter Drop-down">
+        <Properties>
+          <Property
+            Name="BackgroundColor">var(--Lightest)</Property>
+          <Property
+            Name="Color">var(--Dark)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Auto-complete">
+        <Properties>
+          <Property
+            Name="BackgroundColor">var(--Lightest)</Property>
+          <Property
+            Name="BorderLeft">solid 1px var(--Dark)</Property>
+          <Property
+            Name="BorderRight">solid 1px var(--Dark)</Property>
+          <Property
+            Name="BorderTop">solid 1px var(--Dark)</Property>
+          <Property
+            Name="BorderBottom">solid 1px var(--Dark)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Auto-complete Item (selected)">
+        <Properties>
+          <Property
+            Name="BackgroundColor">#ececec</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Auto-complete Item: Description">
+        <Properties>
+          <Property
+            Name="Color">var(--Dark)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Side Navigation Menu Item">
+        <Classes>
+          <StyleClass
+            Name="Expander Icon">
+            <Properties>
+              <Property
+                Name="ExpanderBorderColor">var(--Lightest)</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="1st Level">
+            <Properties>
+              <Property
+                Name="BorderBottom">none 0px var(--Dark)</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+        <Properties>
+          <Property
+            Name="Color">var(--Lightest)</Property>
+          <Property
+            Name="BorderBottom">solid 0px transparent</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Heading">
+        <Properties>
+          <Property
+            Name="Color">var(--Dark)</Property>
+          <Property
+            Name="BorderBottom">solid 1px #ebebeb</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Suggestion Link">
+        <Properties>
+          <Property
+            Name="Color">var(--Primary)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link">
+        <Properties>
+          <Property
+            Name="Color">var(--Primary)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link (active)">
+        <Properties>
+          <Property
+            Name="Color">var(--Primary)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link (focus)">
+        <Properties>
+          <Property
+            Name="Color">var(--Primary)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link (visited)">
+        <Properties>
+          <Property
+            Name="Color">var(--Primary)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Path">
+        <Properties>
+          <Property
+            Name="Color">var(--Primary)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Glossary Result">
+        <Properties>
+          <Property
+            Name="BoxShadowColor">#cccccc</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Pagination Item">
+        <Properties>
+          <Property
+            Name="Color">var(--Primary)</Property>
+          <Property
+            Name="BorderLeft">solid 1px var(--Lightest)</Property>
+          <Property
+            Name="BorderRight">solid 1px var(--Lightest)</Property>
+          <Property
+            Name="BorderTop">solid 1px var(--Lightest)</Property>
+          <Property
+            Name="BorderBottom">solid 1px var(--Lightest)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Pagination Item (selected)">
+        <Properties>
+          <Property
+            Name="BorderTop">solid 1px #e2e2e6</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Pagination Item (hover)">
+        <Properties>
+          <Property
+            Name="BorderTop">solid 1px #e2e2e6</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Header">
+        <Properties>
+          <Property
+            Name="BackgroundColor">var(--Primary)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Micro Content Response Link">
+        <Properties>
+          <Property
+            Name="Color">var(--Primary)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Micro Content Response Link (active)">
+        <Properties>
+          <Property
+            Name="Color">var(--Primary)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Micro Content Response Link (focus)">
+        <Properties>
+          <Property
+            Name="Color">var(--Primary)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Micro Content Response Link (hover)">
+        <Properties>
+          <Property
+            Name="Color">var(--Primary)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Micro Content Response Link (visited)">
+        <Properties>
+          <Property
+            Name="Color">var(--Primary)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Micro Content Response Path">
+        <Properties>
+          <Property
+            Name="Color">var(--Primary)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Micro Content Response Button">
+        <Properties>
+          <Property
+            Name="BorderTop">solid 1px #b9bec1</Property>
+          <Property
+            Name="BorderBottom">solid 1px #b9bec1</Property>
+          <Property
+            Name="BackgroundRepeat">no-repeat</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Filter">
+        <Properties>
+          <Property
+            Name="BackgroundColor">var(--Lightest)</Property>
+          <Property
+            Name="BorderLeft">solid 1px #000000</Property>
+          <Property
+            Name="BorderRight">solid 1px #000000</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Filter Drop-down (hover)">
+        <Properties>
+          <Property
+            Name="BackgroundColor">var(--Lightest)</Property>
+          <Property
+            Name="Color">#000000</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Auto-complete Item">
+        <Properties>
+          <Property
+            Name="Color">#000000</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Skip to Content">
+        <Properties>
+          <Property
+            Name="BackgroundColor">var(--Lightest)</Property>
+          <Property
+            Name="Color">var(--Dark)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Central Account Link">
+        <Properties>
+          <Property
+            Name="Color">#dadada</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Central Account Menu">
+        <Properties>
+          <Property
+            Name="BackgroundColor">var(--Lightest)</Property>
+          <Property
+            Name="BoxShadowColor">#cccccc</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Central Account Menu Link">
+        <Properties>
+          <Property
+            Name="Color">var(--Dark)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Central Account Menu Separator">
+        <Properties>
+          <Property
+            Name="Color">#cccccc</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Side Navigation Menu Item (hover)">
+        <Properties>
+          <Property
+            Name="BackgroundColor">var(--Dark)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Micro Content Result">
+        <Properties>
+          <Property
+            Name="BoxShadowColor">#cccccc</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Micro Content Phrase">
+        <Properties>
+          <Property
+            Name="Color">var(--Dark)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Micro Content Response Fade">
+        <Properties>
+          <Property
+            Name="BackgroundGradient">vertical transparent var(--Lightest)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Knowledge Panel Result">
+        <Properties>
+          <Property
+            Name="BoxShadowColor">#b9bec1</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Knowledge Panel Phrase">
+        <Properties>
+          <Property
+            Name="Color">var(--Dark)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Knowledge Panel Truncated Response Button">
+        <Properties>
+          <Property
+            Name="BorderTop">solid 1px #b9bec1</Property>
+          <Property
+            Name="BorderBottom">solid 1px #b9bec1</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Knowledge Panel Truncated Response Fade">
+        <Properties>
+          <Property
+            Name="BackgroundGradient">vertical transparent var(--Lightest)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Micro Content FAQ Item">
+        <Properties>
+          <Property
+            Name="BoxShadowColor">#b9bec1</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Micro Content FAQ Phrase">
+        <Properties>
+          <Property
+            Name="Color">var(--Dark)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Micro Content Knowledge Item">
+        <Properties>
+          <Property
+            Name="BoxShadowColor">#b9bec1</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Micro Content Knowledge Phrase">
+        <Properties>
+          <Property
+            Name="Color">var(--Dark)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Micro Content Knowledge Truncated Response Button">
+        <Properties>
+          <Property
+            Name="BorderTop">solid 1px #b9bec1</Property>
+          <Property
+            Name="BorderBottom">solid 1px #b9bec1</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Micro Content Knowledge Truncated Response Fade">
+        <Properties>
+          <Property
+            Name="BackgroundGradient">vertical transparent var(--Lightest)</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Micro Content Promotion Item">
+        <Properties>
+          <Property
+            Name="BoxShadowColor">#b9bec1</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Micro Content Promotion Phrase">
+        <Properties>
+          <Property
+            Name="Color">var(--Dark)</Property>
+        </Properties>
+      </Style>
+      <Medium
+        Name="Tablet">
+        <Style
+          Name="Navigation Panel">
+          <Properties>
+            <Property
+              Name="BackgroundColor">var(--Dark)</Property>
+          </Properties>
+        </Style>
+        <Style
+          Name="Navigation Panel Item">
+          <Properties>
+            <Property
+              Name="BorderBottom">solid 1px var(--Dark)</Property>
+            <Property
+              Name="Color">var(--Lightest)</Property>
+          </Properties>
+          <Classes>
+            <StyleClass
+              Name="Expander Icon">
+              <Properties>
+                <Property
+                  Name="ExpanderBorderColor">var(--Lightest)</Property>
+              </Properties>
+            </StyleClass>
+          </Classes>
+        </Style>
+        <Style
+          Name="Navigation Panel Item (hover)">
+          <Properties>
+            <Property
+              Name="BackgroundColor">var(--Dark)</Property>
+            <Property
+              Name="Color">#b9bec1</Property>
+          </Properties>
+        </Style>
+        <Style
+          Name="Skip to Content">
+          <Properties>
+            <Property
+              Name="BackgroundColor">var(--Lightest)</Property>
+            <Property
+              Name="Color">var(--Dark)</Property>
+          </Properties>
+        </Style>
+      </Medium>
+      <Medium
+        Name="Mobile">
+        <Style
+          Name="Skip to Content">
+          <Properties>
+            <Property
+              Name="BackgroundColor">var(--Lightest)</Property>
+            <Property
+              Name="Color">var(--Dark)</Property>
+          </Properties>
+        </Style>
+      </Medium>
+    </Styles>
+    <Stylesheet></Stylesheet>
+    <Resources>
+      <Resource
+        Name="Logo_guide.png">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</Resource>
+    </Resources>
+  </Stylesheet>
+  <Strings />
+</CatapultSkin>

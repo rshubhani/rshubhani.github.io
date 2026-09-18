@@ -1,0 +1,1 @@
+define({numchunks:1,prefix:'Glossary_Chunk',terms:[{t:'Asana',c:0},{t:'Mitahara',c:0},{t:'Patanjali',c:0},{t:'Saucha',c:0},{t:'Tapas',c:0}]});

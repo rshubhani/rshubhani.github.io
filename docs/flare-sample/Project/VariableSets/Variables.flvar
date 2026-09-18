@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CompanyName">MadCap Software</Variable>
+  <Variable
+    Comment=""
+    Name="PhoneNumber">858 123 4567</Variable>
+  <Variable
+    Name="Title"
+    Comment=""
+    EvaluatedDefinition="Yoga &amp; Healthy Living: A Complete Guide">Yoga &amp; Healthy Living: A Complete Guide</Variable>
+  <Variable
+    Name="DisclaimerNote"
+    Comment=""
+    EvaluatedDefinition="The topics, examples, and instructions provided in this guide are intended solely for training and demonstration purposes.">The topics, examples, and instructions provided in this guide are intended solely for training and demonstration purposes.</Variable>
+  <Variable
+    Name="Yoga"
+    Comment=""
+    EvaluatedDefinition="Yoga is the art of harmonizing body, mind, and breath.">Yoga is the art of harmonizing body, mind, and breath.</Variable>
+  <Variable
+    Name="Sub Title"
+    Comment=""
+    EvaluatedDefinition="&quot;Nourish Your Body, Calm Your Mind&quot;">"Nourish Your Body, Calm Your Mind"</Variable>
+  <Variable
+    Name="Website"
+    Comment=""
+    EvaluatedDefinition="Yoga Sutras of Patanjali">Yoga Sutras of Patanjali</Variable>
+</CatapultVariableSet>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="false"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/PageLayouts/Coverpage.flpgl" />
+    <Link
+      Url="Content/Resources/PageLayouts/Disclaimer.flpgl" />
+    <Link
+      Url="Content/Resources/PageLayouts/toc.flpgl" />
+    <Link
+      Url="Content/Topic/Welcome_Page.htm" />
+    <Link
+      Url="Content/Topic/Introduction.htm" />
+    <Link
+      Url="Content/Topic/Yoga/yoga_intro.htm" />
+    <Link
+      Url="Content/Topic/Yoga/role_of_yoga.htm" />
+    <Link
+      Url="Content/Topic/Yoga/getting_started.htm" />
+    <Link
+      Url="Content/Topic/Yoga/yoga_equipments.htm" />
+    <Link
+      Url="Content/Topic/Yoga/begineer_guidelines.htm" />
+    <Link
+      Url="Content/Topic/Yoga/yoga_for_begineers.htm" />
+    <Link
+      Url="Content/Topic/Yoga/surya_namaskar.htm" />
+    <Link
+      Url="Content/Topic/Yoga/yoga_poses/step_1_Prayer.htm" />
+    <Link
+      Url="Content/Topic/Yoga/yoga_poses/step_2_raisedarms.htm" />
+    <Link
+      Url="Content/Topic/Yoga/yoga_poses/step_3_forwardbend.htm" />
+    <Link
+      Url="Content/Topic/Yoga/yoga_poses/step_4_equestrian.htm" />
+    <Link
+      Url="Content/Topic/Yoga/yoga_poses/step_5_plank.htm" />
+    <Link
+      Url="Content/Topic/Yoga/yoga_poses/step_6_eightlimbed.htm" />
+    <Link
+      Url="Content/Topic/Yoga/yoga_poses/step_7_cobra.htm" />
+    <Link
+      Url="Content/Topic/Yoga/yoga_poses/step_8_downwardog.htm" />
+    <Link
+      Url="Content/Topic/Yoga/yoga_poses/step_9_equestrian.htm" />
+    <Link
+      Url="Content/Topic/Yoga/yoga_poses/step_10_forwardbend.htm" />
+    <Link
+      Url="Content/Topic/Yoga/yoga_poses/step_11_raisedarms.htm" />
+    <Link
+      Url="Content/Topic/Yoga/yoga_poses/step_12_prayer.htm" />
+    <Link
+      Url="Content/Topic/Glossary.htm" />
+  </Links>
+  <LongLinks />
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

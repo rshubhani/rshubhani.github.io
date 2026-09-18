@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="normal" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in">
+        <Frame X="-94px" Y="-74px" Width="725px" Height="56px" Flow="header" Right="-55px" Bottom="882px" Anchors="" BackgroundImage="../Images/ChapterHeader/Chapter_Header_V1.png" BackgroundRepeat="stretch">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="font-family: Roboto;font-weight: normal;"><MadCap:variable xhtml:name="Variables.Title" xhtml:style="font-variant: small-caps;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-94px" Y="14px" Width="726px" Height="842px" Flow="body" Right="-56px" Bottom="8px" />
+        <Frame X="-94px" Y="885px" Width="725px" Height="60px" Flow="footer" Right="-55px" Bottom="-81px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;">
+                            <xhtml:col />
+                            <xhtml:col />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td xhtml:style="font-weight: normal;">
+                                        <xhtml:p xhtml:style="font-weight: bold;"><xhtml:span xhtml:style="font-weight: normal;">CHAPTER</xhtml:span><xhtml:span xhtml:style="font-family: Roboto; font-size: 12pt;"> <MadCap:variable xhtml:name="System.ChapterNumber" xhtml:style="font-weight: normal;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />: <MadCap:variable xhtml:name="Heading.Level1" xhtml:style="font-weight: normal;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:span>
+                                        </xhtml:p>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: right;font-family: Roboto;font-weight: normal;"><xhtml:span xhtml:style="font-weight: normal;">Page: </xhtml:span><MadCap:variable xhtml:name="System.PageNumber" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="first" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in">
+        <Frame X="-94px" Y="-74px" Width="725px" Height="56px" Flow="header" Right="-55px" Bottom="882px" Anchors="" BackgroundImage="none">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;margin-left: 0;margin-right: auto;">
+                            <xhtml:col />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td>
+                                        <xhtml:p><xhtml:span xhtml:style="font-family: Roboto; font-size: 12pt; font-weight: bold;">CHAPTER</xhtml:span> <MadCap:variable xhtml:name="System.ChapterNumber" xhtml:style="font-weight: bold;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                        <xhtml:hr xhtml:width="100%" xhtml:size="0" xhtml:align="center" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-94px" Y="9px" Width="726px" Height="847px" Flow="body" Right="-56px" Bottom="8px" />
+        <Frame X="-94px" Y="885px" Width="725px" Height="60px" Flow="footer" Right="-55px" Bottom="-81px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;">
+                            <xhtml:col xhtml:style="font-weight: bold;" />
+                            <xhtml:col xhtml:style="font-weight: bold;" />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td xhtml:style="font-weight: normal;">
+                                        <xhtml:p xhtml:style="font-weight: normal;"><xhtml:span xhtml:style="font-family: Roboto; font-size: 12pt;">CHAPTER <MadCap:variable xhtml:name="System.ChapterNumber" xhtml:style="font-weight: normal;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />: <MadCap:variable xhtml:name="Heading.Level1" xhtml:style="font-weight: normal;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:span>
+                                        </xhtml:p>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: right;font-family: Roboto;font-weight: normal;"><xhtml:span xhtml:style="font-weight: normal;">Page: </xhtml:span><MadCap:variable xhtml:name="System.PageNumber" xhtml:style="font-weight: normal;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>
